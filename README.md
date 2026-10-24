@@ -74,3 +74,60 @@ python3 agent_memory_mcp.py
 ## 📄 License
 
 MIT License © jitendrakumarvoicex-art (Dhruv)
+
+## 🌐 Universal AI Agent Setup
+
+### 1. Cursor (`.cursor/mcp.json`)
+```json
+{
+  "mcpServers": {
+    "agent-memory-mcp": {
+      "command": "python3",
+      "args": ["${workspaceFolder}/agent_memory_mcp.py"]
+    }
+  }
+}
+```
+
+### 2. OpenAI Codex CLI (`codex_config.toml`)
+```toml
+[mcp_servers.agent_memory_mcp]
+command = "python3",
+args = ["agent_memory_mcp.py"]
+```
+
+### 3. Google Antigravity IDE (`antigravity.mcp.json`)
+```json
+{
+  "mcpServers": {
+    "agent-memory-mcp": {
+      "command": "python3",
+      "args": ["agent_memory_mcp.py"]
+    }
+  }
+}
+```
+
+### 4. Claude Desktop & Claude Code (`claude_desktop_config.json`)
+```json
+{
+  "mcpServers": {
+    "agent-memory-mcp": {
+      "command": "python3",
+      "args": ["/path/to/agent_memory_mcp.py"]
+    }
+  }
+}
+```
+
+### 5. Windsurf / Cline (`mcp_settings.json`)
+```json
+{
+  "mcpServers": {
+    "agent-memory-mcp": {
+      "command": "python3",
+      "args": ["agent_memory_mcp.py"]
+    }
+  }
+}
+```
