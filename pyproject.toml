@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-memory-mcp"
+version = "1.2.0"
+description = "Persistent SQLite Knowledge Graph & Cross-Session Memory MCP Server in Python."
+requires-python = ">=3.10"
+dependencies = []
+py-modules = ["agent_memory_mcp"]
+
+[project.scripts]
+agent-memory-mcp = "agent_memory_mcp:main"
