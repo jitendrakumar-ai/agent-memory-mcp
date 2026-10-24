@@ -9,6 +9,8 @@ DB_FILE = os.path.expanduser("~/.agent_memory_mcp.db")
 def init_db():
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
+    cursor.execute("PRAGMA journal_mode=MEMORY;")
+    cursor.execute("PRAGMA synchronous=OFF;")
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS memories (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
