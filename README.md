@@ -6,7 +6,7 @@
   <img src="https&#58;//img.shields.io/badge/MCP-2025--03--26-7928CA?style=for-the-badge" alt="MCP Spec" />
   <img src="https&#58;//img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
   <img src="https&#58;//img.shields.io/badge/Zero_API_Keys-Required-00F2FE?style=for-the-badge" alt="Zero API Keys" />
-  <img src="https&#58;//img.shields.io/badge/NexusVibe_AI-Dhruv-FF0080?style=for-the-badge" alt="NexusVibe AI" />
+  <img src="https&#58;//img.shields.io/babadge/NexusVibe_AI-Jitendra_Kumar-FF0080?style=for-the-badge"dge/NexusVi_AIbe_Jitendra_Kumar--FF0080?style=for-the-badge" alt="NexusVibe AI" />
   <img src="https&#58;//img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
 </p>
 
@@ -119,5 +119,5 @@ args = ["-m", "agent_memory_mcp"]
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <b>Dhruv • NexusVibe AI</b></sub>
+  <sub>Built with ❤️ by <b>Jitendra Kumar • NexusVibe AI</b></sub>
 </div>
